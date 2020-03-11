@@ -1,0 +1,28 @@
+.row {
+    flex-direction: row;
+}
+
+@media only screen and (max-width: 991px) {
+    app-tabbed-panel {
+        display: none;
+    }
+
+    app-pages {
+        width: 50%;
+    }
+    
+}
+@media only screen and (min-width: 991px) {
+    app-pages {
+        display: none;
+    }
+    
+}
+
+/* @media only screen and (min-width: 485px) {
+    app-pages {
+        display: none;
+    }
+
+} */
+

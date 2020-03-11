@@ -1,0 +1,11 @@
+<br>
+<div class="mt-3" (touchstart)="swipe($event, 'start')" (touchend)="swipe($event, 'end')">
+  <div class="container">
+    <app-pages [pageNumber]="pageNumber"></app-pages>
+    <div class="row">
+      <app-skills></app-skills>
+      <app-tabbed-panel></app-tabbed-panel>
+    </div>
+  </div>
+</div>
+
