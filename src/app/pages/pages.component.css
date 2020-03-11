@@ -10,7 +10,8 @@
         display: none;
     }
     .no-card {
-        flex-shrink: 3;
+        display: flexbox;
+        width: auto !important;
     }
 }
 

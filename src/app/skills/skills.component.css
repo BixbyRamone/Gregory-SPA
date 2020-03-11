@@ -1,6 +1,26 @@
+img {
+    border-radius: 30px !important;
+    width: 200px;
+}
+
 @media only screen and (max-width: 485px) {
     .card {
-        float: left !important;
+        width: 300px;
+    }
+
+    img {
+        width: 300px;
+    }
+}
+
+@media only screen and (min-width: 485px) {
+    .card {
+        color: red;
+        width: 300px;
+    }
+
+    img {
+        display: none;
     }
 }
 
